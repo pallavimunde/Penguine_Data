@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguine Prediction</title>
+</head>
+
+<body style="background-color: rgb(45, 175, 201);">
+    
+
+    <h1> Penguine !!! </h1>
+    <form method="GET" action="/Penguine">
+
+        <label>bill_length_mm:</label>
+        <input type = "text" name = "bill_length_mm">
+        </select>
+
+        <br>
+        <br>
+
+        <label>bill_depth_mm:</label>
+        <input type = "text" name = "bill_depth_mm">
+
+        </select>
+
+        <br>
+        <br>
+
+        <label>flipper_length_mm:</label>
+        <input type = "text" name = "flipper_length_mm">
+        </select>
+
+        <br>
+        <br>
+
+        <label>body_mass_g:</label>
+        <input type = "text" name = "body_mass_g">
+        </select>
+
+        <br>
+        <br>
+
+        <label>species:</label>
+        <select name = "species">
+            <option value = "Adelie">Adelie</option>
+            <option value = "Chinstrap">Chinstrap</option>
+            <option value = "Gentoo">Gentoo</option>
+            </option>
+        </select>
+        
+        <br>
+        <br>
+
+        <label>island:</label>
+        <select name ="island">
+            <option value ="Torgersen">Torgersen</option>
+            <option value ="Biscoe">Biscoe</option>
+            <option value ="Dream">Dream</option>
+            </option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <h4><strong>Hello i am Penguine <b><u>{{ result }} </b></u>  </strong></h4>
+
+
+    </form>
+
+
+</body>
+</html>
